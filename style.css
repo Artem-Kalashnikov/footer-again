@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul li a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .footer__top-menu {
+    flex-direction: column;
+  }
+}
