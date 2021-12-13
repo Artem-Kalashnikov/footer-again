@@ -118,6 +118,8 @@ ul li a:hover {
   .footer__top-social {
     display: flex;
     align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .heading__social--logo {
@@ -128,6 +130,8 @@ ul li a:hover {
 @media (max-width: 992px) {
   .footer__top-social {
     flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .heading__social--logo {
@@ -149,6 +153,10 @@ ul li a:hover {
     flex-direction: column;
     text-align: end;
     height: 30px;
+  }
+
+  .heading__block--social {
+    font-size: 14px;
   }
 }
 
@@ -189,6 +197,7 @@ ul li a:hover {
 
   .heading__block--text {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .heading__text--style {
@@ -202,7 +211,17 @@ ul li a:hover {
   .footer__top-menu {
     height: auto;
   }
-  footer .container .row .col-6 {
+  footer .container .row .footer__adaptive-menu .col-6 {
     max-width: 75%;
+  }
+  footer .container .footer__top .row .col-6 {
+    max-width: 100%;
+  }
+
+  .footer__bottom--dev {
+    align-items: center;
+    flex-direction: row;
+    text-align: unset;
+    margin-top: 20px;
   }
 }
